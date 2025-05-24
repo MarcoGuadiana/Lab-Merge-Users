@@ -1,7 +1,8 @@
-const {
-  combineUsers
-  } = require('../index');
-  require('datejs');
+
+const { combineUsers } = require('../index.js');
+
+
+
 
   describe('combineUsers function return', () => {
     const combine = combineUsers(["Jim3","Pam5","Dwight77"],["Michael6","Eleanor22","Chidi202"],["Jack_jack","Julia_Oreo", "Bill_bore"])
